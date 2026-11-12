@@ -1,0 +1,29 @@
+# macOS and editor clutter
+.DS_Store
+.vscode/
+*.swp
+
+# Secrets: never commit these
+.env
+*.env
+*secret*
+*credential*
+*.pfx
+*.p12
+*.key
+*.pem
+*.kdbx
+*.clixml
+
+# Large VM and disk files
+*.iso
+*.vma
+*.vma.zst
+*.qcow2
+*.vhd
+*.vhdx
+*.vmdk
+
+# Logs and temp output
+*.log
+*.tmp
