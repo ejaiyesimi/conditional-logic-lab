@@ -25,6 +25,8 @@ the evidence, and what I would do differently in production.
 
 ## Lab environment
 
+![Lab topology](diagrams/lab-topology.png)
+
 Proxmox VE on a single Dell OptiPlex, with pfSense handling routing and firewalling.
 Each AD site has its own VLAN, and only AD traffic is allowed between them.
 
